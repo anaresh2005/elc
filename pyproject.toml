@@ -1,0 +1,22 @@
+[project]
+name = "timesfm-elc"
+version = "0.1.0"
+description = "TimesFM ELC Data Forecasting"
+authors = [
+    {name = "Aneesh Naresh",email = "an524@cornell.edu"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=2.2.4,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "notebook (>=7.3.3,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
