@@ -6,14 +6,17 @@ authors = [
     {name = "Aneesh Naresh",email = "an524@cornell.edu"}
 ]
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.11, <3.12"
 dependencies = [
     "numpy (>=2.2.4,<3.0.0)",
     "pandas (>=2.2.3,<3.0.0)",
     "matplotlib (>=3.10.1,<4.0.0)",
     "scikit-learn (>=1.6.1,<2.0.0)",
     "jupyter (>=1.1.1,<2.0.0)",
-    "notebook (>=7.3.3,<8.0.0)"
+    "notebook (>=7.3.3,<8.0.0)",
+    "torch (>=2.6.0,<3.0.0)",
+    "timesfm (>=1.2.9,<2.0.0)",
+    "jax (>=0.5.3,<0.6.0)"
 ]
 
 
